@@ -11,6 +11,10 @@
 
   background-image: url('./imgs/meme.jpg');
 }
+.colorfondo{
+  background-color: aquamarine;
+  color: black;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

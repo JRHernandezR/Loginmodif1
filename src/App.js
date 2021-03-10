@@ -16,6 +16,7 @@ function App() {
     <Router>
       <section>
         <BrandHeader></BrandHeader>
+        <section class="colorfondo">
         <Switch>
           <Route path="/" exact>
               <Home />
@@ -27,6 +28,7 @@ function App() {
               <Login></Login>
           </Route>
         </Switch>
+       </section>
       </section>
     </Router>
   );
